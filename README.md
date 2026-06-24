@@ -273,14 +273,12 @@ The training script (`train.py`) automatically produces two diagnostic charts sa
 
 **1. Coefficient Bar Plot** — A horizontal bar chart showing the optimized weight of every feature, color-coded red for risk-increasing factors and blue for protective/neutral factors. Bars are sorted from highest to lowest impact.
 
-### Coefficient Bar Plot
 ![Coefficients Bar Plot](assets/Learned_Coefficients.png)
 
 *Features in red increase diabetes risk; features in blue are protective or neutral. Sorted from highest to lowest impact.*
 
 **2. Confusion Matrix Heatmap** — A 2×2 matrix showing the counts of True Positives, True Negatives, False Positives, and False Negatives on the test set. This gives a direct view into where the model succeeds and where it makes mistakes.
 
-### Confusion Matrix Heatmap
 ![Confusion Matrix Heatmap](assets/Confusion_Matrix.png)
 
 *Rows represent the patient's true label; columns represent what the model predicted.*
